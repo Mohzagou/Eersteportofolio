@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 120%;
+    height: 50px;
+    background-image: linear-gradient(to right, black, grey, white);
+    /*background-color: rgb(113, 74, 145);*/
+}
+
+section {
+    width: 110%;
+    height: 100px;
+    linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%),
+    repeating-linear-gradient(-115deg, transparent, transparent 20px, rgba(255, 255, 255, 0.1) 20px, rgba(255, 255, 255, 0.1) 40px),
+    background-color: #234def;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    width: 110%;
+    height: 200px;
+    background-image: repeating-linear-gradient(to right, black, grey, white 120%);
+    /*background-color: rgb(177, 69, 21, 0.8);*/
+    /*margin: 10px 0 10px 0;
+    border: solid black 10px;
+    border-radius: 15px;*/
+}
+
+.avatar {
+    width: 125px;
+    border-radius: 62px;
+    background-image: repeating-linear-gradient(to right, black, grey, 110%);
+}
+
+#name {
+    color: grey;
+}
+
+.test {
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    margin: 5px;
+}

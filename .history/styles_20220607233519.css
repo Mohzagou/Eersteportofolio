@@ -1,0 +1,58 @@
+                            body {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            header {
+                                width: 120%;
+                                height: 50px;
+                                background-image: linear-gradient(to right, black, grey, white);
+                                /*background-color: rgb(113, 74, 145);*/
+                            }
+                            
+                            section {
+                                width: 110%;
+                                height: 100px;
+                                background-image: linear-gradient(to right, black, grey, white);
+                                background-color: #234def;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            .about-me {
+                                width: 110%;
+                                height: 200px;
+                                background-image: repeating-linear-gradient(to right, black, grey, white 170%);
+                                /*background-color: rgb(177, 69, 21, 0.8);*/
+                                /*margin: 10px 0 10px 0;
+    border: solid black 10px;
+    border-radius: 15px;*/
+                            }
+                            
+                            .avatar {
+                                width: 125px;
+                                border-radius: 62px;
+                                background-image: repeating-linear-gradient(to right, black, grey, 110%);
+                            }
+                            
+                            #name {
+                                color: grey;
+                            }
+                            
+                            .test {
+                                width: 40px;
+                                height: 40px;
+                                background-color: grey;
+                                margin: 5px;
+                            }
+                            
+                            .button {
+                                border: 0;
+                                padding: 0 20px;
+                                font-size: 20px;
+                                background-color: rgb(7, 7, 7);
+                                background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(248, 243, 243, 0), );
+                                box-shadow: inset 2px 2px 3px rgba(233, 224, 224, 0.4);
+                                border-radius: 10px;
+                            }
